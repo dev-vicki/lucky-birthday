@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,47 @@
     <title>Lucky Birthday</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- <nav><span class="nav">🎉 Is Your <strong>Birthday</strong> Lucky ? 🎉</span> </nav>
-     <header id="alert">
-        <div class="alert" > Privacy Note: We do not store any data ! <span><button id="close"> X </button></span></div>
-    </header> 
+    <nav>
+        <span class="nav">🎂 Is Your <strong>Birthday</strong> Lucky ? 🎉</span>
+    </nav>
+
+    <header id="alert">
+        <div class="alert">
+            Privacy Note: We do not store any data !
+            <span>
+                <button id="close"> X </button>
+            </span>
+        </div>
+    </header>
+
+    <main>
+        <div class="left-section">
+            <img src="./assets/box.jpg" alt="Birthday Gift">
+        </div>
+
+        <div class="right-section">
+            <label for="birthday">Enter Your Birthday :</label>
+            <input type="date" id="input-bday" name="birthday"> <br>
+
+            <label for="lucky-number">Enter Your Lucky Number :</label>
+            <input type="number" id="luckyNumber" name="luckyNumber"> <br>
+
+            <button class="main-btn" id="check-btn">Check</button>
+            <div id="gif">
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+        Developed by <a href="https://github.com/dev-vicki">@dev-vicki</a>
+        </div>
+    </footer>
+
+    <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>

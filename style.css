@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+:root {
+  --primary-color: #E3B505;
+  --secondary-color: #c1cfd6;
+}
+
+body {
+  background-color: whitesmoke;
+}
+.nav {
+  text-align: center;
+}
+nav {
+  padding: 1rem;
+  font-size: xx-large;
+  font-weight: 600;
+  color: #fff;
+  background: var(--primary-color);
+  /* box-shadow: 0 8px 32px 0 rgba(200, 211, 48, 0.37);
+  border: 1px solid rgba(218, 221, 60, 0.18); */
+}
+
+#alert {
+  display: block;
+  margin-top: 1rem;
+  font-size: larger;
+  font-weight: bold;
+  color: var(--primary-color);
+  padding: 1rem;
+}
+#close {
+  color: var(--primary-color);
+  background-color: whitesmoke;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  padding-left: 2rem;
+  font-weight: bolder;
+}
+.alert {
+  display: block;
+  margin: auto;
+  max-width: 500px;
+  border-color: var(--primary-color);
+  border-style: solid;
+  padding: 1rem;
+}
+strong {
+  color: #50514F;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+img {
+  max-width: 400px;
+  padding: 2rem;
+}
+
+.right-section {
+  padding: 2rem;
+  background: #f1c40f;
+  box-shadow: 0 8px 32px 0 rgba(31, 135, 130, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  max-width: 400px;
+  min-width: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 0.3rem;
+  margin-bottom: 3rem;
+}
+
+.right-section label {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 300px;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.main-btn {
+  width: 100px;
+  padding: .75rem;
+  border-style: none;
+  font: inherit;
+  font-weight: 400;
+  font-size: large;
+  color: #fff;
+  background-color: #50514F;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 8px 32px 0 rgba(211, 208, 19, 0.37);
+}
+
+#gif {
+  display: none;
+  padding-top: 2rem;
+}
+
+#gif img {
+  width: 300px;
+  background-position: center;
+}
+footer {
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
+ footer a{
+     text-decoration: none;
+ }
